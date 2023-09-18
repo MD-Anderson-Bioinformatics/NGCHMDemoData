@@ -1,5 +1,5 @@
 Package: NGCHMDemoData
-Title: Package of Demo Data for the NGCHM R Package
+Title: Demo Data for the NGCHM R Package
 Version: 1.0.0
 Authors@R:
   c(person(given=c("Bradley", "M"), family="Broom", role=c("aut"), email="bmbroom@mdanderson.org", comment=c(ORCID="0000-0002-0915-3164")),
