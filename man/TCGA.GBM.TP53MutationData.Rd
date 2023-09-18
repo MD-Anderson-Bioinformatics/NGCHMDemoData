@@ -12,7 +12,7 @@ A length 169 character vector.
 }
 }
 \description{
-Load using .
+Load using \code{data('TCGA.GBM.Demo')}.
 }
 \seealso{
 TCGA.GBM.Demo, TCGA.GBM.ExpressionData

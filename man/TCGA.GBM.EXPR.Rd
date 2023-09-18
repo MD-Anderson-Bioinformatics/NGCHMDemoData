@@ -9,12 +9,12 @@ A numeric data matrix with 2000 rows and 547 columns.
 \itemize{
 \item The data was generated using microarray platforms.
 \item Row labels are gene symbols (e.g. KRT19). The NG-CHM label type is \code{bio.gene.hugo}.
-\item Column labels are TCGA barcodes up to the center field (28 characters total, e.g. TCGA-02-0001-01C-01R-0177-01). The NG-CHM label type is \code{bio.tcga.barcode.sample.vial.portion.analyte.aliquot}.
+\item Column labels are TCGA barcodes up to the center field (28 characters total, e.g. TCGA-02-0001-01C-01R-0177-01). The NG-CHM label type is\cr\code{bio.tcga.barcode.sample.vial.portion.analyte.aliquot}.
 \item Data has been log-transformed (min 2.196606, max 14.41321).
 \item The data has no column labels in common with the data in TCGA.GBM.ExpressionData (as expected), but at the participant level (first 12 characters) there are 158 columns in common
 and at the vial level (first 16 characters) there are 152 in common.  There are 1098 genes in common.  This permits several types of NG-CHMs integrating the two data sets.
 }
 }
 \description{
-Load using .
+Load using \code{data('TCGA.GBM.EXPR')}.
 }

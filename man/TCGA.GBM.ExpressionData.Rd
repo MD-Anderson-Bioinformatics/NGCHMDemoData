@@ -8,14 +8,14 @@
 A numeric data matrix with 3540 rows and 169 columns.
 \itemize{
 \item Row labels are gene symbols (e.g. SYK). The NG-CHM label type is \code{bio.gene.hugo}.
-\item Column labels are TCGA barcodes up to the center field (28 characters total, e.g. TCGA-06-0178-01A-01R-1849-01). The NG-CHM label type is \code{bio.tcga.barcode.sample.vial.portion.analyte.aliquot}.
+\item Column labels are TCGA barcodes up to the center field (28 characters total, e.g. TCGA-06-0178-01A-01R-1849-01). The NG-CHM label type is\cr\code{bio.tcga.barcode.sample.vial.portion.analyte.aliquot}.
 \item Data has been log-transformed and row centered (min -6.373672, max 9.701261).
 \item This data set and TCGA.BRCA.ExpressionData have 1225 genes (rows) in common.
 \item See TCGA.GBM.EXPR for commonalities with that data set.
 }
 }
 \description{
-Load using data('TCGA.GBM.Demo')
+Load using \code{data('TCGA.GBM.Demo')}.
 }
 \seealso{
 TCGA.GBM.Demo, TCGA.GBM.TP53MutationData, TCGA.GBM.EXPR
