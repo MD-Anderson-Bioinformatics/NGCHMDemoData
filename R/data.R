@@ -80,14 +80,14 @@ NULL
 
 #' Glioblastoma Multiforme (GBM) RNASeq expression data from TCGA
 #'
-#' Load using data('TCGA.GBM.Demo')
+#' Load using `data('TCGA.GBM.Demo')`.
 #'
 #' @docType data
 #' @name TCGA.GBM.ExpressionData
 #' @format A numeric data matrix with 3540 rows and 169 columns.
 #' \itemize{
 #'   \item Row labels are gene symbols (e.g. SYK). The NG-CHM label type is `bio.gene.hugo`.
-#'   \item Column labels are TCGA barcodes up to the center field (28 characters total, e.g. TCGA-06-0178-01A-01R-1849-01). The NG-CHM label type is `bio.tcga.barcode.sample.vial.portion.analyte.aliquot`.
+#'   \item Column labels are TCGA barcodes up to the center field (28 characters total, e.g. TCGA-06-0178-01A-01R-1849-01). The NG-CHM label type is\cr`bio.tcga.barcode.sample.vial.portion.analyte.aliquot`.
 #'   \item Data has been log-transformed and row centered (min -6.373672, max 9.701261).
 #'   \item This data set and TCGA.BRCA.ExpressionData have 1225 genes (rows) in common.
 #'   \item See TCGA.GBM.EXPR for commonalities with that data set.
@@ -97,7 +97,7 @@ NULL
 
 #' TP53 mutation data for TCGA glioblastoma multiforme (GBM) samples
 #'
-#' Load using `r data('TCGA.GBM.Demo')`.
+#' Load using `data('TCGA.GBM.Demo')`.
 #'
 #' @docType data
 #' @name TCGA.GBM.TP53MutationData
@@ -111,7 +111,7 @@ NULL
 
 #' Glioblastoma Multiforme (GBM) microarray expression data from TCGA
 #'
-#' Load using `r data('TCGA.GBM.EXPR')`.
+#' Load using `data('TCGA.GBM.EXPR')`.
 #'
 #' @docType data
 #' @name TCGA.GBM.EXPR
@@ -119,7 +119,7 @@ NULL
 #' \itemize{
 #'   \item The data was generated using microarray platforms.
 #'   \item Row labels are gene symbols (e.g. KRT19). The NG-CHM label type is `bio.gene.hugo`.
-#'   \item Column labels are TCGA barcodes up to the center field (28 characters total, e.g. TCGA-02-0001-01C-01R-0177-01). The NG-CHM label type is `bio.tcga.barcode.sample.vial.portion.analyte.aliquot`.
+#'   \item Column labels are TCGA barcodes up to the center field (28 characters total, e.g. TCGA-02-0001-01C-01R-0177-01). The NG-CHM label type is\cr`bio.tcga.barcode.sample.vial.portion.analyte.aliquot`.
 #'   \item Data has been log-transformed (min 2.196606, max 14.41321).
 #'   \item The data has no column labels in common with the data in TCGA.GBM.ExpressionData (as expected), but at the participant level (first 12 characters) there are 158 columns in common
 #'         and at the vial level (first 16 characters) there are 152 in common.  There are 1098 genes in common.  This permits several types of NG-CHMs integrating the two data sets.
