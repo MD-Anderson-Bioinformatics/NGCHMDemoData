@@ -21,9 +21,17 @@
 #' overlaps can be easily used to generate NG-CHMs that integrate multiple data sets in a variety of ways to further
 #' demonstrate the capabilities of NG-CHMs.
 #'
-#' @docType package
+#' **Installation**
+#'
+#' This package can be installed from MD Anderson Bioinformatics R-universe repository:
+#'
+#' \code{install.packages("NGCHMDemoData",}\cr
+#' \code{repos = c("https://md-anderson-bioinformatics.r-universe.dev",}
+#' \code{"https://cran.r-project.org"))}
+#'
 #' @name NGCHMDemoData
 #' @seealso TCGA.BRCA.Demo, TCGA.GBM.Demo, TCGA.GBM.EXPR
+"_PACKAGE"
 NULL
 
 #' A subset of the breast cancer (BRCA) data from TCGA.

@@ -2,6 +2,7 @@
 % Please edit documentation in R/data.R
 \docType{package}
 \name{NGCHMDemoData}
+\alias{NGCHMDemoData-package}
 \alias{NGCHMDemoData}
 \title{NGCHMDemoData}
 \description{
@@ -26,7 +27,31 @@ should only be used for evaluating and demonstrating the NG-CHM system and not f
 The different data sets overlap with each other in several ways that are documented in the data sets concerned.  These
 overlaps can be easily used to generate NG-CHMs that integrate multiple data sets in a variety of ways to further
 demonstrate the capabilities of NG-CHMs.
+
+\strong{Installation}
+
+This package can be installed from MD Anderson Bioinformatics R-universe repository:
+
+\code{install.packages("NGCHMDemoData",}\cr
+\code{repos = c("https://md-anderson-bioinformatics.r-universe.dev",}
+\code{"https://cran.r-project.org"))}
 }
 \seealso{
 TCGA.BRCA.Demo, TCGA.GBM.Demo, TCGA.GBM.EXPR
+}
+\author{
+\strong{Maintainer}: Mary A Rohrdanz \email{marohrdanz@mdanderson.org}
+
+Authors:
+\itemize{
+  \item Bradley M Broom \email{bmbroom@mdanderson.org} (\href{https://orcid.org/0000-0002-0915-3164}{ORCID})
+}
+
+Other contributors:
+\itemize{
+  \item Chris Wakefield \email{cwakefield@mdanderson.org} [contributor]
+  \item James Melott \email{jmmelott@mdanderson.org} [contributor]
+  \item MD Anderson Cancer Center [copyright holder]
+}
+
 }
