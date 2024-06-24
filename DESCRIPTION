@@ -1,6 +1,6 @@
 Package: NGCHMDemoData
 Title: Demo Data for the NGCHM R Package
-Version: 0.0.10
+Version: 0.1.0
 Authors@R:
   c(person(given=c("Bradley", "M"), family="Broom", role=c("aut"), email="bmbroom@mdanderson.org", comment=c(ORCID="0000-0002-0915-3164")),
     person(given=c("Mary", "A"), family="Rohrdanz", role=c("aut","cre"), email="marohrdanz@mdanderson.org"),
@@ -15,3 +15,4 @@ URL: https://github.com/MD-Anderson-Bioinformatics/NGCHMDemoData, https://md-and
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
+Data: TCGA.BRCA.Expression.csv, TCGA.BRCA.TP53Mutation.csv
